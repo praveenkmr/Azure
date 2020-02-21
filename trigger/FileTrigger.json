@@ -1,0 +1,24 @@
+{
+	"name": "FileTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Plain Ingestion",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/srcfiles/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/21defaa1-fc04-4b50-a3c2-06b7f3a6bd83/resourceGroups/ADI_DL_POC_E2E/providers/Microsoft.Storage/storageAccounts/dtlkblobstorage",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
