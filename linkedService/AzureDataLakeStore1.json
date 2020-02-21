@@ -1,0 +1,13 @@
+{
+	"name": "AzureDataLakeStore1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://dtlkgen1storage.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "c8eca3ca-1276-46d5-9d9d-a0f2a028920f",
+			"subscriptionId": "21defaa1-fc04-4b50-a3c2-06b7f3a6bd83",
+			"resourceGroupName": "ADI_DL_POC_E2E"
+		}
+	}
+}
