@@ -1,7 +1,0 @@
-{
-	"name": "Plain Ingestion",
-	"properties": {
-		"annotations": []
-	},
-	"type": "Microsoft.DataFactory/factories/pipelines"
-}
